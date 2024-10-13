@@ -1,59 +1,54 @@
-# Hotel_Booking_Dashboard
+# Waterdip AI Front End Assignment
 
-The Hotel Booking Dashboard is a single-page application that visualizes booking data. The dashboard includes four different charts that update based on a user-selected date range. The charts provide insights into the number of visitors per day, per country, and break down the number of adults, children, and babies.
+A React-based interactive dashboard that visualizes hotel booking data through various chart types, including Time Series, Sparklines, and Column charts. This project aims to provide insights into hotel booking trends over time, allowing users to filter data by date range.
 
-Features
-Date Selector: Filter the data based on a user-selected date range.
-Charts:
-Time Series Chart: Shows the number of visitors per day (adults + children + babies).
-Column Chart: Displays the number of visitors per country.
-Sparkline Charts: Two small charts showing total visitors for adults and children with trend lines.
-Responsive Design: Dashboard is fully responsive and works across different screen sizes.
-Tech Stack
-Frontend: React.js (with TypeScript)
-Charts Library: ApexCharts (https://apexcharts.com/)
-State Management: React Hooks
-Backend (Optional): Node.js / Express for serving data through an API
-Data Source: JSON file or a simple API that serves hotel booking data
-Installation
-Prerequisites
-Node.js (>= 14.x)
-npm or yarn (preferred)
-Steps
-Clone the repository:
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
+## Features
+- Interactive dashboard displaying hotel booking data.
+- Data visualization using `react-apexcharts`.
+- Responsive design for various screen sizes.
+- Dark mode for enhanced user experience.
+- Date range filtering to view specific time periods.
 
-git clone https://github.com/your-username/Hotel_Booking_Dashboard.git
-cd Hotel_Booking_Dashboard
-Install dependencies:
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **react-apexcharts**: A library for creating interactive charts.
+- **CSS**: For styling and layout.
+- **Date Range Picker**: A component for selecting date ranges.
 
+## Getting Started
 
-yarn install
-Start the development server:
+### Prerequisites
+Make sure you have the following installed:
+- Node.js (version 12 or higher)
+- npm (Node Package Manager)
 
-yarn start
-Access the app: Open http://localhost:3000 in your browser.
+### Installation
+1. Clone the repository:
+   git clone https://github.com/yourusername/Waterdip-AI-FrontEnd-Assignment.git
+   
+2.Navigate to the project directory:
+  cd Waterdip-AI-FrontEnd-Assignment
 
-Usage
-Data Source: You can choose to store the booking data in a JSON file or a database. If using a database, ensure that your backend API is running and serves the required data to the frontend.
+3.Install the required dependencies:
+  npm install
 
-Date Selection: Use the date picker at the top of the dashboard to filter the data displayed in the charts.
+## Usage
+1. Start the development server:
+    npm start
+2. Open your browser and go to http://localhost:3000 to view the dashboard.
+3. Use the date range picker to filter data displayed in the charts.
 
-Charts:
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-The Time Series Chart shows the number of visitors per day.
-The Column Chart visualizes the number of visitors by country.
-The Sparkline Charts show the total visitors for adults and children.
-Project Structure:
-
-├── public
-├── src
-│   ├── api          # API setup for fetching data (if using a backend)
-│   ├── components   # React components for charts and other UI elements
-│   ├── data         # Static data (if using a JSON file)
-│   ├── hooks        # Custom React hooks
-│   ├── styles       # CSS/SCSS files
-│   └── utils        # Utility functions (e.g., for data formatting)
-├── README.md
-├── tsconfig.json
-└── package.json
+## Acknowledgments
+- [ApexCharts](https://apexcharts.com) for the charting library.
+- [React](https://reactjs.org) for the powerful UI library.
