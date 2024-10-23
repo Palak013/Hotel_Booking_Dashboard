@@ -1,4 +1,4 @@
-# Waterdip AI Front End Assignment
+
 
 A React-based interactive dashboard that visualizes hotel booking data through various chart types, including Time Series, Sparklines, and Column charts. This project aims to provide insights into hotel booking trends over time, allowing users to filter data by date range.
 
